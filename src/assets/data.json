@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "React vs Angular",
+    "description": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications."
+  },
+  {
+    "id": 2,
+    "title": "Node.js vs Python",
+    "description": "Node.js is an open-source, cross-platform, back-end, JavaScript runtime environment that executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command-line applications, build scalable network applications, and build web servers."
+  },
+  {
+    "id": 3,
+    "title": "Java vs C++",
+    "description": "Java is a general-purpose programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. Java applications are typically compiled to bytecode, which can run on any platform that has a Java Virtual Machine (JVM) or Java Runtime Environment (JRE) installed."
+  },
+  {
+    "id": 4,
+    "title": "C# vs JavaScript",
+    "description": "C# is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines. C# is a statically typed language, which means that variable types are known at compile time."
+  },
+  {
+    "id": 5,
+    "title": "Flutter vs React Native",
+    "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop applications for Android, iOS, Linux, Mac, Windows, Google Fuchsia, and the web. Flutter apps are written in the Dart programming language, which is a general-purpose programming language that is compiled to machine code."
+  }
+]
