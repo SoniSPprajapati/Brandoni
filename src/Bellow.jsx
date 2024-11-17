@@ -4,7 +4,11 @@ import Accordion from "./Accordion";
 function Bellow() {
   return (
     <div>
-      <Accordion />
+      <Accordion
+        title="React vs Angular"
+        description="This is some text"
+        showUnderline
+      />
     </div>
   );
 }
