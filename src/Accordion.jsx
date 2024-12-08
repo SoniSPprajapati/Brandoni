@@ -11,7 +11,6 @@ function Accordion({
   const URL = "https://wakati.ritoho8508.workers.dev/api/calculate";
 
   useEffect(() => {
-    console.log("UseEffect chal gya");
     fetch(URL, {
       method: "POST",
       headers: {
@@ -25,7 +24,7 @@ function Accordion({
       .then((data) => {
         setReadTime(data.seconds);
       });
-  });
+  }, []);
 
   return (
     <details
