@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+
 function Accordion({
   title,
   description,
@@ -5,8 +7,25 @@ function Accordion({
   isOpen = false,
   onClick = () => {},
 }) {
-  const URL = "https://wakati.ritoho8508.workers.dev/";
-  fetch();
+  const [readTime, setReadTime] = useState(0);
+  const URL = "https://wakati.ritoho8508.workers.dev/api/calculate";
+
+  useEffect(() => {
+    console.log("UseEffect chal gya");
+    fetch(URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        sentence: description,
+      }),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        setReadTime(data.seconds);
+      });
+  });
 
   return (
     <details
@@ -21,9 +40,7 @@ function Accordion({
       >
         {title}
 
-        <span className="text-xs text-slate-600">
-          {description.split(" ").length} words
-        </span>
+        <span className="text-xs text-slate-600">{readTime} seconds</span>
       </summary>
       <p className="text-sm">{description}</p>
     </details>

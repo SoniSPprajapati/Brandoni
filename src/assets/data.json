@@ -27,6 +27,6 @@
   {
     "id": 6,
     "title": "New Relic vs Datadog",
-    "description": "New Relic is a performance management platform that provides real-time visibility into the performance of your applications."
+    "description": "New Relic is a performance management platform that provides real-time visibility into the performance of your applications. It offers features such as distributed tracing, APM, and synthetic monitoring. Datadog is a monitoring service that provides visibility into the performance of your applications and infrastructure. It offers features such as log management, APM, and synthetic monitoring. Both platforms are used to monitor and troubleshoot performance issues in real-time. They are both popular choices for monitoring and troubleshooting performance issues in modern applications."
   }
 ]
